@@ -10,3 +10,7 @@ Notable things:
 1. It has javascript in front end
 2. Made up of multiple pages(not infinite scroll)
 3. [Chromedriver executable file](https://chromedriver.chromium.org/downloads) has to be changed based on the version to keep it updated
+
+
+Note:
+- Selenium is a actually meant to be used as web automation tool but it can be used as scraper along with other actual webscraping tools like BeautifulSoup, Scrapy, etc.
