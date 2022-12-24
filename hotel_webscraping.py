@@ -17,7 +17,7 @@ import time
 from selenium.common.exceptions import TimeoutException
 
 #%% intial setups
-url = "https://www.airbnb.co.in/s/Maldives/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&price_filter_input_type=0&price_filter_num_nights=2&query=Maldives&place_id=ChIJvXv7qr-ZtSQRiWKVgeEJRUE&date_picker_type=calendar&checkin=2023-01-29&checkout=2023-01-31&adults=1&source=structured_search_input_header&search_type=user_map_move&ne_lat=5.907946130822214&ne_lng=74.26385615953609&sw_lat=2.9969095359491202&sw_lng=70.91082868167564&zoom=8&search_by_map=true&federated_search_session_id=271c0520-3e96-4150-b72f-0a46a21491c7&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MCwiaXRlbXNfb2Zmc2V0IjowLCJ2ZXJzaW9uIjoxfQ%3D%3D"
+url = <enter_website_url>
 
 
 ser = Service("Web_scraping\chromedriver.exe")
@@ -36,7 +36,7 @@ while True:
         html = requests.get(url)
         soup = BeautifulSoup(html.text, 'html.parser')
         next_button = soup.find('a', class_="_1bfat5l").get('href') #next button has class "_1bfat5l"
-        next_button = "https://www.airbnb.co.in" + next_button
+        next_button = "https://www.website.co.in" + next_button
         url = next_button
         
         #get all the html content from the webpage in single shot
