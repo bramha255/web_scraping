@@ -9,7 +9,8 @@ Focus on the project:
 Notable things:
 1. It has javascript in front end
 2. Made up of multiple pages(not infinite scroll)
-3. [Chromedriver executable file](https://chromedriver.chromium.org/downloads) has to be changed based on the version to keep it updated
+3. [Chromedriver executable file](https://chromedriver.chromium.org/downloads) has to be changed based on the version to keep it updated 
+4. The price in the home/navigator page is always little higher than inside the particular website since it includes other expenses like service charge and few other things
 
 
 Note:
